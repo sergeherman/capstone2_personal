@@ -1,0 +1,65 @@
+    p {
+        opacity: 0.1;
+    }
+    h3 {
+        font-size: x-large; 
+    }
+    h1, h2 {
+        font-size: xx-large; 
+    }
+    .center {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+.container {    
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 32% 32% 32%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-repeat: repeat; 
+    background-color: #f2f2f2;
+    opacity: 0.8;/* powtarza obraz tła w poziomie i pionie */
+}
+
+
+#hero {
+    background-image: url('../images/bbike-sm.jpg'); /* ścieżka do obrazu z szarym wzorem rowerów */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#resume {
+    background-image: url('../images/wbike-sm.jpg'); /* ścieżka do obrazu z szarym wzorem rowerów */
+    font-family:'Trebuchet MS';
+
+}
+#projects {
+    background-image: url('../images/ybike-sm.jpg'); /* ścieżka do obrazu z szarym wzorem rowerów */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#interests {
+    background-image: url('../images/pbike-sm.jpg'); /* ścieżka do obrazu z szarym wzorem rowerów */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contact {
+    background-image: url('../images/gbike-sm.jpg'); /* ścieżka do obrazu z szarym wzorem rowerów */
+}
+button {
+    display: inline-block;
+    padding: 100px 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+}
+.white {
+    background-color: white;        
+    
+}
+
